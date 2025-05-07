@@ -57,6 +57,7 @@ module.exports = function roundRobin(processes, timeQuantum) {
       }
     }
   
+    
     return {
       processes: completed,
       averageWaitingTime: totalWaitingTime / completed.length,
