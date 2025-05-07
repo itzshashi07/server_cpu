@@ -18,8 +18,7 @@ class MinHeap {
       }
       return min;
     }
-  
-    peek() {
+      peek() {
       return this.heap[0];
     }
   
