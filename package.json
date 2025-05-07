@@ -1,15 +1,15 @@
 {
-  "name": "server",
+  "name": "server_cpu",
   "version": "1.0.0",
+  "description": "Backend server for CPUFlow – an interactive CPU Scheduling Simulator.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["CPU scheduling", "backend", "express", "simulator", "CPUscheduler"],
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
